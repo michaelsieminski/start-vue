@@ -4,7 +4,7 @@
 	"type": "project",
 	"description": "Your description here",
 	"keywords": [],
-	"license": "",
+	"license": "MIT",
 	"require": {
 		"php": "^8.4",
 		"inertiajs/inertia-laravel": "v2.0.14",

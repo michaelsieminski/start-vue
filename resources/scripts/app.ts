@@ -5,7 +5,7 @@ import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { createApp, type DefineComponent, h } from "vue";
 
 createInertiaApp({
-	title: (title) => title ? `${title} - Kanbane` : 'Kanbane',
+	title: (title) => title ? `${title} - Laravel` : 'Laravel',
 	resolve: (name) =>
 		resolvePageComponent(
 			`../pages/${name}.vue`,

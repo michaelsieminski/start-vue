@@ -1,8 +1,8 @@
 {
 	"$schema": "https://getcomposer.org/schema.json",
-	"name": "michaelsieminski/kanbane-app",
+	"name": "michaelsieminski/start-vue",
 	"type": "project",
-	"description": "Kanbane is your AI-powered personal project manager with voice, smart chat, Kanban board, and docs - all deeply integrated to conquer ambitious projects without overwhelm.",
+	"description": "Your description here",
 	"keywords": [],
 	"license": "",
 	"require": {
@@ -13,6 +13,7 @@
 	},
 	"require-dev": {
 		"fakerphp/faker": "1.24.1",
+		"laravel/boost": "v1.8.5",
 		"laravel/pail": "1.2.4",
 		"laravel/pint": "1.26.0",
 		"mockery/mockery": "1.6.12",

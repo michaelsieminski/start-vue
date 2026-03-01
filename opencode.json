@@ -4,19 +4,12 @@
         "laravel-boost": {
             "type": "local",
             "enabled": true,
-            "command": [
-                "php",
-                "artisan",
-                "boost:mcp"
-            ]
+            "command": ["php", "artisan", "boost:mcp"]
         },
         "herd": {
             "type": "local",
             "enabled": true,
-            "command": [
-                "php",
-                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
-            ],
+            "command": ["php", "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"],
             "environment": {
                 "SITE_PATH": "/Users/michael/Developer/sieminski/start-vue"
             }

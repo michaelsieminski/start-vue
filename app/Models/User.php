@@ -16,6 +16,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'remember_token',
     ];
 
+    #[\Override]
     protected function casts(): array
     {
         return [

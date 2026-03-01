@@ -1,12 +1,6 @@
 {
-    "agents": [
-        "claude_code",
-        "opencode"
-    ],
-    "editors": [
-        "claude_code",
-        "opencode"
-    ],
+    "agents": ["claude_code", "opencode"],
+    "editors": ["claude_code", "opencode"],
     "guidelines": [],
     "herd_mcp": true
 }

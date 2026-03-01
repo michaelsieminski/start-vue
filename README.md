@@ -20,26 +20,30 @@ These conventions are enforced through comprehensive AI instructions, making thi
 ## Tech Stack
 
 ### Backend
+
 - **PHP 8.4** - Latest PHP with modern syntax and performance
 - **Laravel 12** - Latest Laravel with streamlined structure
 - **Inertia.js** - Server-driven SPA framework with advanced features
 - **Laravel Boost** - AI-powered development tools for Laravel
 
 ### Frontend
+
 - **Vue 3** - Progressive JavaScript framework
 - **Tailwind CSS 4** - Utility-first CSS with CSS-first configuration
 - **Vite 7** - Next generation frontend tooling
 
 ### Development Tools
+
 - **Bun** - The fastest frontend build tool
 - **Pest v4** - Modern testing framework with browser testing support
 - **Laravel Pint** - Opinionated code formatter
 - **Rector** - Automated code refactoring
 - **Biome** - Fast JavaScript/TypeScript formatter and linter
-  - Note: Might consider oxc as soon as the Formatter is stable
+    - Note: Might consider oxc as soon as the Formatter is stable
 - **Laravel Herd** - Native Laravel development environment
 
 ### Laravel specific configurations
+
 - **Prohibit destructive commands** - Prevent accidental data loss in Prod
 - **Model should be strict** – Prevent lazy loading and accessing missing attributes locally
 - **Model unguard** – Remove the need for mass assignment protection in models
